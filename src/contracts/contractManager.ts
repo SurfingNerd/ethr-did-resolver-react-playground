@@ -1,8 +1,7 @@
 
+// import Web3 from 'web3';
 
-import Web3 from 'web3';
-
-//import { Contract } from 'web3-core';
+// import { Contract } from 'web3-core';
 
 // export class ContractManager {
 

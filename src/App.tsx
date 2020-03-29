@@ -3,6 +3,7 @@ import React from 'react';
 import Model from './model/Model';
 import logo from './logo.svg';
 import './App.css';
+import LabUI from './components/LabUI';
 
 interface AppProps {
   model?: Model;
@@ -21,7 +22,9 @@ class App extends React.Component<AppProps> {
             Don&apos;t drink too much,
             {' '}
             {model!.name}
-!
+            <LabUI lab={model!.labs[0]} />
+            <LabUI lab={model!.labs[1]} />
+            <LabUI lab={model!.labs[2]} />
           </p>
           <a
             className="App-link"

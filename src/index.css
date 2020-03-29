@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.lab {
+  background-image: url("labEntryBackground.png");
+  background-color: #8998af;
+  background-repeat: no-repeat;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 12px;
+  text-transform: uppercase;
+  width: 100%;
+  display: block;
+}
+
+.value {
+  font-size: 13px;
+  line-height: 16px;
+  width: 100%;
+}

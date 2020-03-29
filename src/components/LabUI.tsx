@@ -5,6 +5,9 @@ import React, { ReactNode } from 'react';
 
 import Lab from '../model/Lab';
 
+// import labImg from '../labEntryBackground.png';
+
+
 interface LabUIProbs{
   lab: Lab;
 }
@@ -19,13 +22,12 @@ class LabUI extends React.Component<LabUIProbs, {}> {
 
     // todo: instead of an x icon a back arrow would be better.
     return (
-
-
-      <div style={{ width: '80%', background: '#ff0000' }}>
+      <div className=".lab">
         <h1>{name}</h1>
-        <h1>{country}</h1>
-        <h1>{ethAddress}</h1>
-        <h1>{website}</h1>
+        <h2>{country}</h2>
+        <h2>{ethAddress}</h2>
+        <h2>{website}</h2>
+        <a href={website} target="_blank" rel="noopener noreferrer">Website</a>
       </div>
     );
   }

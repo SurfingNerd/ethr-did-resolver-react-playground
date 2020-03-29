@@ -20,3 +20,10 @@
 .App-link {
   color: #09d3ac;
 }
+
+
+.infos {
+  height: 285px;
+  width: 300px;
+  overflow: hidden;
+}
